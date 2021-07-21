@@ -25,6 +25,9 @@ $random-bubbles: random(
         TODO: 
         height must be related with vertical position > top cant be higher than (100% - height%)
         width must be related with horizontal position > left cant be higher than (100% - width%)
+        - - 
+        height could be a random size and the top could be another random size but limmited by the (screenHeight - height) of the bubble
+        also consider that the bubble should be a circle > which means the height=width
     */
     @if $random-bubbles== 0 {
       &#n1 {
