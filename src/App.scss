@@ -1,0 +1,16 @@
+@import "./styles/constants/constants";
+$random-bg: random(
+  $limit: 2,
+);
+.App {
+  height: 100vh;
+  width: 100vw;
+
+  @if $random-bg== 0 {
+    background-color: $trypan-blue;
+  } @else if $random-bg== 1 {
+    background-color: $purple;
+  } @else if $random-bg== 2 {
+    background-color: $ultramarine-blue;
+  }
+}
