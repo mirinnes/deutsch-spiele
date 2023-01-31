@@ -3,9 +3,10 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <div className="bubble" id="n1"></div>
-      <div className="bubble" id="n2"></div>
-      <div className="bubble" id="n3"></div>
+      <h1 data-testid="welcome" id="welcome" className="title">
+        Herzlich Wilkommen
+      </h1>
+      <button type="button">Spiel!</button>
     </div>
   );
 }
